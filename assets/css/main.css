@@ -118,6 +118,12 @@ i {
   color: #333;
 }
 
+.authors img {
+  max-width: 140px;
+  max-height: 140px;
+  border-radius: 50%;
+}
+
 .footer {
   font-size: 14px;
   text-align: center;
