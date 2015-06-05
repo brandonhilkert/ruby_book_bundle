@@ -28,8 +28,8 @@ h1 {
 }
 
 h3 {
-  color: #95a5a6;
-  font-weight: 400;
+  font-weight: 500;
+
 }
 
 h4 {
@@ -43,6 +43,14 @@ p {
   font-size: 16px;
 }
 
+blockquote {
+  border: 0;
+}
+
+q {
+  font-style: italic;
+}
+
 .centered {
   text-align: center;
 }
@@ -51,8 +59,16 @@ p {
   background-color: #f2f2f2;
 }
 
-.strikethrough {
+.old-price {
+  color: #ddd;
   text-decoration: line-through;
+}
+
+.currency {
+  position: relative;
+  top: -30px;
+  left: -5px;
+  font-size: 4.5rem;
 }
 
 /* Links */
@@ -112,7 +128,7 @@ i {
 .header {
   background: url(../img/background.png) no-repeat center top;
   background-attachment: relative;
-  padding-top: 160px;
+  padding-top: 190px;
 }
 
 .books h4 {

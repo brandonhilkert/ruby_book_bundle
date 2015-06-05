@@ -30,13 +30,19 @@
 	<div class="container books header">
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
-				<h1>7 Ruby Books.<br/>$199</h1>
+        <h1>
+          7 Ruby Books.
+          <br/>
+          <span class="old-price text-muted">$514</span>
+          <br />
+          <span class="new-price">$199</span>
+        </h1>
 			</div>
 		</div><!-- /row -->
 
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
-        <h4>Available in...</h4>
+        <h4 style="color: #95a5a6;">Available in...</h4>
         <div class="clock"></div>
 			</div>
 		</div><!-- /row -->
@@ -97,7 +103,8 @@
 
 			<div class="col-lg-4">
 				<img src="img/clean-ruby-cover-front.png" width="107" alt="Clean Ruby Book Cover">
-				<h4>Clean Ruby</h4>
+				<img src="img/clean-ruby-cover-front.png" width="107" alt="Clean Ruby Book Cover">
+				<h4>Clean Ruby / Ruby DSL Handbook</h4>
         <h5>by <a href="#authors">Jim Gay</a></h5>
 				<p>
           We look for patterns and organization in almost everything we do.
@@ -127,31 +134,94 @@
       <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
           <h1>What People are Saying...</h1>
-          <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
         </div>
       </div><!-- /row -->
 
       <! -- CAROUSEL -->
       <div class="row mt centered">
-        <div class="col-lg-6 col-lg-offset-3">
+        <div class="col-lg-6 col-lg-offset-3" style="min-height: 250px;">
           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <img src="img/p01.png" alt="">
+                <blockquote>
+                  <q>
+                    Building Ruby gems is intimidating. It seems impossible to find the right documentation when you need it. Most of the information out there assumes that you already know what you’re doing. And there’s never been a great guide to get started.
+                    Build a Ruby Gem will teach you all of that, in a short, simple, totally approachable guide. It’s the most information about building gems I’ve ever seen in one place, and I can tell I’ll be opening it back up whenever I have a question about a gem I’m building.
+                    Even if you’ve been creating gems for years, you’ll *still* learn a ton from Build a Ruby Gem. I certainly did.
+                  </q>
+                </blockquote>
               </div>
+
               <div class="item">
-                <img src="img/p02.png" alt="">
+                <blockquote>
+                  <q>
+                    I wish I were living inside Jim Gay's codebase
+                  </q>
+                </blockquote>
               </div>
+
               <div class="item">
-                <img src="img/p03.png" alt="">
+                <blockquote>
+                  <q>
+                    One of the best Ruby E-Books that I have ever read. Building a Rails-like Framework is an awesome way to teach internals of Rails and you are doing it really well.
+                  </q>
+                </blockquote>
+              </div>
+
+              <div class="item">
+                <blockquote>
+                  <q>
+                    Fearless Refactoring - Rails Controllers" by Andrzej Krzywda is a great resource for everyone who at least once encountered legacy Rails application. With good examples, refactoring techniques, and step by step guides it is a worthy read for novices and intermediate developers. Even if you are an expert, the book will save you time by giving you tested solutions for dealing with legacy Rails apps.
+                  </q>
+                </blockquote>
+              </div>
+
+              <div class="item">
+                <blockquote>
+                  <q>
+                    I consider Practicing Rails among the best software books I’ve read. It clearly explains the exact approach I took when learning Ruby and Rails. In a couple hours, you can learn the most important lessons that took me almost a decade to figure out. I just wish I had this book when I started. I’m glad I have it now.
+                  </q>
+                </blockquote>
+              </div>
+
+              <div class="item">
+                <blockquote>
+                  <q>
+                    I recently ran into an issue at work where we needed to use one of our custom Rails generators in another project. I knew the best way to accomplish this was with a gem, but, I'd never built a gem before and felt pretty intimidated.
+                    While researching how to build a gem, I came across Brandon’s book, "Build a Ruby Gem". Feeling overwhelmed by the task at hand, I took a chance and purchased a copy. It was worth every penny.
+
+                    Brandon's book is clear, well organized, easy to follow and comprehensive. I was able to breeze through the book while following his sample code to build - and publish - my gem in just one day!
+                  </q>
+                </blockquote>
+              </div>
+
+              <div class="item">
+                <blockquote>
+                  <q>
+                    Clean Ruby, by Jim Gay, is one of the few programming books that caught my attention like this. Very well written, a perfect flow.
+                  </q>
+                </blockquote>
+              </div>
+
+              <div class="item">
+                <blockquote>
+                  <q>
+                    Fearless Refactoring helped me embrace the simplicity and powerfulness of service objects and lean controller code. Ever since I've started using exception-based control flow my code became much more readable and fun to work with. 10/10 would recommend.
+                  </q>
+                </blockquote>
+              </div>
+
+
+              <div class="item">
+                <blockquote>
+                  <q>
+                    Jim is one of those rare people who can crank out award winning site designs, go and implement the backend Rails functionality, and be lead engineer for his project team… all on one project. I’ve seen him do it.
+
+                    Jim is someone to watch out for, and get on your project if you can. (Especially with his upcoming book, which I think will rock the Ruby on Rails world a little bit, changing how the community thinks about large/complex Rails codebases.).
+                  </q>
+                </blockquote>
               </div>
             </div>
           </div>
@@ -170,7 +240,10 @@
 		<div class="row mt centered">
       <div class="col-lg-6 col-lg-offset-3">
         <div class="price">
-          <h1>$199</h1>
+          <h1>
+            <span class="currency">$</span>
+            <span class="new-price">199</span>
+          </h1>
           <p class="mt">
             Building a Ruby Gem Ebook/Screencasts</br>
             Minitest Cookbook Ebook w/ Code</br>
@@ -208,7 +281,7 @@
           <h4>Chris Kottom</h4>
           <p>
             Chris has been working in technology and on the web since 1995.
-            Check out his writings at <a href="chriskottom.com" target="_blank">chriskottom.com</a>.
+            Check out his writings at <a href="http://chriskottom.com" target="_blank">chriskottom.com</a>.
           </p>
         </div><!--/col-lg-4 -->
 
@@ -265,20 +338,25 @@
 			<div class="col-lg-offset-1 col-lg-5">
 				<h4>What will I receive?</h4>
 				<p>
-          Whether you're an expert Rubyist, or just starting out,
-          this book will guide you through the process of creating
-          your own Ruby gem from start to finish. This package includes 14
-          screencasts totaling over 2 hours of video content -- value at $129.
+          You'll immediately get the following to download:
+          Build a Ruby Gem ebook (pdf, epub, mobi) with source code and screencasts,
+          Minitest Cookbook ebook (pdf, epub, mobi) and source code examples,
+          Practicing Rails ebook (pdf),
+          Fearless Refactoring ebook (pdf),
+          Clean Ruby ebook (pdf, epub, mobi) and PDF extras,
+          Ruby DSL Handbook (pdf, epub, mobi) with sample code and screencasts,
+          Rebuilding Rails ebook (pdf).
         </p>
 			</div><!--/col-lg-4 -->
 
 			<div class="col-lg-offset-1 col-lg-5">
-				<h4>What can I do to help?</h4>
+				<h4>Can I share this with friends?</h4>
 				<p>
-          Whether you're an expert Rubyist, or just starting out,
-          this book will guide you through the process of creating
-          your own Ruby gem from start to finish. This package includes 14
-          screencasts totaling over 2 hours of video content -- value at $129.
+          Absolutely!<br /><br />
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://rubybookbundle.com" data-text="The Ruby Book Bundle available for a limited time!">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          or
+          <a href="mailto:?subject=Check%20out%20the%20Ruby%20book%20bundle&amp;body=Hey%20-%20Check%20out%20the%20Ruby%20book%20bundle.%207%20awesome%20Ruby%20ebooks%20for%20%24199!%0A%0A">email it!</a>
         </p>
 			</div><!--/col-lg-4 -->
     </div>
@@ -292,6 +370,7 @@
 	</div><!-- /container -->
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <script src="js/flipclock.min.js"></script>
   <script src="https://gumroad.com/js/gumroad.js"></script>
 
