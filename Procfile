@@ -1,2 +1,2 @@
-web: bin/puma -t 0:5 -p $PORT -e $RACK_ENV
+web: bin/puma -C config/puma.rb
 
