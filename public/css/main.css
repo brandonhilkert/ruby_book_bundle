@@ -153,19 +153,13 @@ i {
 }
 
 .price .btn-trans {
-	color: #444;
-	background-color: transparent;
-	border-color: #444;
-	border-width: 2px;
+	color: white;
+  background: #3498db;
+	border-color: 0;
 	font-weight: 700;
 	font-size: 20px;
   outline: 0;
-}
-
-.price .btn-trans:hover {
-  background: #3498db;
-  color: white;
-
+  width: 50%;
 }
 
 .authors img {
