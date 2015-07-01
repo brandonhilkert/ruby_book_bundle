@@ -5,7 +5,7 @@ GEM
     multi_json (1.11.0)
     puma (2.11.3)
       rack (>= 1.1, < 2.0)
-    rack (1.6.1)
+    rack (1.6.4)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
@@ -30,3 +30,6 @@ DEPENDENCIES
   puma
   sinatra
   sinatra-contrib
+
+BUNDLED WITH
+   1.10.5
