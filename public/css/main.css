@@ -37,6 +37,15 @@ h4 {
   font-size: 20px;
 }
 
+h4 a {
+  color: #555;
+}
+
+h4 a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
 p {
   line-height: 28px;
   margin-bottom: 25px;
