@@ -35,8 +35,8 @@
   </head>
   <body>
   <header>
-    <span class="rwd-line">The Ruby Book Bundle will be available for 1 week only starting</span>
-    <span class="rwd-line"><strong>July 6th 6AM PDT</strong> and ending <strong>July 10th 11:59PM PDT</strong></span>
+    <span class="rwd-line">The Ruby Book Bundle sale is ending in <%= 10 - Date.today.day %> days,</span>
+    <span class="rwd-line">on <strong>July 10th 11:59PM PDT</strong></span>
   </header>
 
 	<div class="container books header">
@@ -57,7 +57,7 @@
 
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
-        <h4 style="color: #95a5a6;">Available in...</h4>
+        <h4 style="color: #95a5a6;">Sale ends in...</h4>
         <div class="clock"></div>
 			</div>
 		</div><!-- /row -->
@@ -307,16 +307,16 @@
             Rebuilding Rails
           </p>
           <p class="mt">
-            <span style="font-style: italic;">
-              Available starting July 6th, 9AM PDT...
-            </span>
-            <!-- <a href="https://gum.co/ruby&#45;book&#45;bundle/landing?wanted=true&#38;locale=true" class="btn btn&#45;lg btn&#45;trans">Buy now</a> -->
+            <!-- <span style="font&#45;style: italic;"> -->
+            <!--   Available starting July 6th, 9AM PDT... -->
+            <!-- </span> -->
+            <a href="https://gum.co/ruby-book-bundle/landing?wanted=true&locale=true" class="btn btn-lg btn-trans">Buy now</a>
 
-            <form action="//brandonhilkert.us7.list-manage.com/subscribe/post?u=34ccc3aa2135746d0231c9420&amp;id=1dd72e1a43" method="post" target="_blank" novalidate>
-              <input type="email" value="" name="EMAIL" placeholder="you@domain.com">
-              <br />
-              <input type="submit" value="Keep me updated!" name="subscribe" class="button">
-            </form>
+            <!-- <form action="//brandonhilkert.us7.list&#45;manage.com/subscribe/post?u=34ccc3aa2135746d0231c9420&#38;amp;id=1dd72e1a43" method="post" target="_blank" novalidate> -->
+            <!--   <input type="email" value="" name="EMAIL" placeholder="you@domain.com"> -->
+            <!--   <br /> -->
+            <!--   <input type="submit" value="Keep me updated!" name="subscribe" class="button"> -->
+            <!-- </form> -->
           </p>
 
         </div>
@@ -448,7 +448,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/flipclock.min.js"></script>
-  <!-- <script src="https://gumroad.com/js/gumroad.js"></script> -->
+  <script src="https://gumroad.com/js/gumroad.js"></script>
 
   <script>
     function getQueryVariable(variable) {
@@ -481,7 +481,7 @@
     var currentDate = new Date();
 
     // Set some date in the future. In this case, it's always Jan 1
-    var futureDate  = new Date("July 6, 2015 09:00:00 EST");
+    var futureDate  = new Date("July 10, 2015 23:59:00 PST");
 
     // Calculate the difference in seconds between the future and current date
     var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
