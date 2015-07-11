@@ -55,12 +55,12 @@
 			</div>
 		</div><!-- /row -->
 
-		<div class="row mt centered">
-			<div class="col-lg-6 col-lg-offset-3">
-        <h4 style="color: #95a5a6;">Sale ends in...</h4>
-        <div class="clock"></div>
-			</div>
-		</div><!-- /row -->
+		<!-- <div class="row mt centered"> -->
+		<!-- 	<div class="col&#45;lg&#45;6 col&#45;lg&#45;offset&#45;3"> -->
+    <!--     <h4 style="color: #95a5a6;">Sale ends in...</h4> -->
+    <!--     <div class="clock"></div> -->
+		<!-- 	</div> -->
+		<!-- </div><!&#45;&#45; /row &#45;&#45;> -->
 
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
@@ -478,20 +478,20 @@
     } else {
 
     }
-    // Grab the current date
-    var currentDate = new Date();
-
-    // Set some date in the future. In this case, it's always Jan 1
-    var futureDate  = new Date("July 10, 2015 23:59:00 PDT");
-
-    // Calculate the difference in seconds between the future and current date
-    var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-
-    var clock = $('.clock').FlipClock(diff, {
-      countdown: true,
-      clockFace: 'DailyCounter',
-      showSeconds: false
-    });
+    // // Grab the current date
+    // var currentDate = new Date();
+    //
+    // // Set some date in the future. In this case, it's always Jan 1
+    // var futureDate  = new Date("July 10, 2015 23:59:00 PDT");
+    //
+    // // Calculate the difference in seconds between the future and current date
+    // var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+    //
+    // var clock = $('.clock').FlipClock(diff, {
+    //   countdown: true,
+    //   clockFace: 'DailyCounter',
+    //   showSeconds: false
+    // });
   </script>
 
   <script>
